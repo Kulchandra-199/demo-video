@@ -1,0 +1,53 @@
+# Output videos
+out/
+
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+
+# Audio files (generated — keep local, do not commit)
+audio/
+public/audio/*.wav
+!public/audio/.gitkeep
+
+# Git bundles / repo backups
+*.bundle
+
+# Large documents
+*.pdf
+
+# Temporary files
+*.tmp
+*.temp
+
+# Large binaries - NEVER commit these
+*.dmg
+*.iso
+*.zip
+*.tar.gz
+
+# Remotion cache
+.remotion/
+node_modules/.cache/
+node_modules/.remotion/
